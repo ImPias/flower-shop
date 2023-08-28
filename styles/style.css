@@ -5,12 +5,19 @@
     padding: 0;
 }
 
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
 .banner-container {
     display: flex;
-    /* height: 100vh; */
     justify-content: space-between;
     align-items: center;
-    /* padding: 200px 230px; */
+    padding: 0px 230px;
+}
+
+.banner-info{
+    max-width: 700px;
 }
 
 .banner-title {
@@ -38,5 +45,5 @@
 }
 
 .banner-img {
-    height: 100%;
+    margin-top: 50px;
 }
