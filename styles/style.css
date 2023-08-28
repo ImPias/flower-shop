@@ -5,6 +5,22 @@
     padding: 0;
 }
 
+/* Common Style */
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 45px;
+    border: 0;
+}
+
+.color-primary {
+    color: #E55473;
+}
+
+/* Header/Banner Section Style */
 header {
     background-color: rgba(229, 84, 115, 0.10);
 }
@@ -16,7 +32,7 @@ header {
     padding: 0px 230px;
 }
 
-.banner-info{
+.banner-info {
     max-width: 700px;
 }
 
@@ -34,16 +50,37 @@ header {
     margin-bottom: 35px;
 }
 
-.btn-primary {
-    border-radius: 8px;
-    background: #E55473;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px 45px;
-    border: 0;
-}
-
 .banner-img {
     margin-top: 50px;
+}
+
+/* Advertisement Section Style */
+.ad-container {
+    display: flex;
+    gap: 185px;
+    padding: 100px 400px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 100px;
+    align-items: center;
+}
+
+.ad-info {
+    max-width: 600px;
+    text-align: center;
+}
+
+.ad-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.ad-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
