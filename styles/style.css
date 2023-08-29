@@ -187,3 +187,64 @@ footer {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Featured Flower Section Style */
+.featured-flower {
+    margin: 180px 240px 130px;
+}
+
+.featured-container {
+    text-align: center;
+}
+
+.featured-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.featured-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 25px auto 50px;
+}
+
+.featured-pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-image {
+    border-radius: 300px 300px 0px 0px;
+    width: 465px;
+    height: 540px;
+}
+
+/* Advantages Part */
+.advantages-container {
+    max-width: 1440px;
+    height: 320px;
+    margin-top: 130px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 175px;
+}
+
+.advantage{
+    text-align: center;
+}
+
+.advantage-img{
+    margin-bottom: 25px;
+}
+
+.advantage title{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+}
