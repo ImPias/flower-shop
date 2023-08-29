@@ -116,6 +116,7 @@ header {
     height: 450px;
     border-radius: 8px;
     background: url('../images/Rectangle_9.png');
+    background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
     display: flex;
