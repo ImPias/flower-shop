@@ -86,28 +86,68 @@ header {
 }
 
 /* Instagram Section Style */
-.instagram{
+.instagram {
     margin: 130px 240px;
     text-align: center;
 }
-.insta-title{
+
+.insta-title {
     color: #272727;
-/* text-align: center; */
-font-size: 40px;
-font-weight: 800;
+    font-size: 40px;
+    font-weight: 800;
 }
-.insta-description{
+
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
-/* text-align: center; */
-font-size: 18px;
-font-weight: 400;
-max-width: 600px;
-margin: 25px auto 50px;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 25px auto 50px;
 }
-.insta-pictures{
+
+.insta-pictures {
     display: flex;
     justify-content: space-between;
 }
-.insta-pic{
 
+/* Subscription Section Style */
+.subscription {
+    max-width: 1440px;
+    height: 450px;
+    border-radius: 8px;
+    background: url('../images/Rectangle_9.png');
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-container {
+    text-align: center;
+}
+
+.subscription-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.subscription-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.subscription-email {
+    width: 700px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 25px;
+    border: 0;
+    margin-right: 15px;
 }
