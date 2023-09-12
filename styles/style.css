@@ -224,6 +224,7 @@ footer {
     width: 465px;
     height: 540px;
     border-radius: 300px 300px 0px 0px;
+    /* margin: auto; */
 }
 
 .featured-image-1{
